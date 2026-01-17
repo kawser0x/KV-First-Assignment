@@ -103,3 +103,49 @@ nav a {
     cursor: pointer;
     border-radius:4px;
 }
+.container {
+    text-align: center;
+    
+}
+/* .container .info-content{
+    padding: 0px 120px 44px 120px;
+} */
+.container .info-content .content h3{
+    padding-top: 30px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.container .info-content .content p {
+    line-height: 20px;
+    font-size: 18px;
+    color: #627382;
+}
+.info-content .card-container{
+    padding: 44px 120px 0px 120px;
+    display: flex;
+    gap: 24px;
+
+}
+.info-content .card-container .card{
+    box-shadow: 0 6px 50px 0 #00000011;
+}
+.info-content .card-container .card .image{
+    color: #F95555;
+    width: 80px;
+    height: 80px;
+    padding: 69.5px 131px 16px 131px;
+}
+.info-content .card-container .card h2{
+    font-size: 24px;
+    font-weight: 700px;
+    color: #001931;
+    margin:16px 24px 16px 24px;
+}
+.info-content .card-container .card p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 0px 24px 69.5px 24px;
+}
